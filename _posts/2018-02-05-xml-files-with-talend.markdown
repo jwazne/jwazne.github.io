@@ -151,3 +151,20 @@ Double click on the tMap component to open the tMap editor and map the input fie
 ![job_design_tmap3.png](https://cdn.filestackcontent.com/bZGCpoUSayIEMq8yvbu5)
 
 Validate your changes by clicking the **Ok** button
+
+## Step 5 : Run the job and get result file
+Below the job canvas, open the Run (Job j_xml_lookup) tab and hit the **Run** button
+You should get the final results:
+![job_design_run1.png](https://cdn.filestackcontent.com/SkvknDPVQduzT0VTsPpr)
+The number of rows written in the output file is the same number of rows as the main flow (books) produced (since no filter has been set).
+
+Open the /.../books_with_authors.xml file, you should get the expected result:
+![job_design_run2.png](https://cdn.filestackcontent.com/8e0gWfTRUSjGLL2XODsw)
+
+That's the end of the post.
+
+Don't hesitate to reach me for more explaination or if some elements are incorrect.
+
+Have fun with Talend !
+
+**The end**
