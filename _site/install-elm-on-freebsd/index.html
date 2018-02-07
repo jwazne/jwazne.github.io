@@ -24,7 +24,7 @@
     <meta content="http://localhost:4000/about/" property="article:author">
   
   
-    <meta content="http://localhost:4000/flexible-jekyll/assets/img/freebsd_elm.png" property="og:image">
+    <meta content="http://localhost:4000/assets/img/freebsd_elm.png" property="og:image">
   
   
     
@@ -52,17 +52,17 @@
     <meta name="twitter:description" content="How to install ELM on Freebsd.">
   
   
-    <meta name="twitter:image:src" content="http://localhost:4000/flexible-jekyll/assets/img/freebsd_elm.png">
+    <meta name="twitter:image:src" content="http://localhost:4000/assets/img/freebsd_elm.png">
   
 
 	<meta name="description" content="How to install ELM on Freebsd.">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta property="og:image" content="">
-	<link rel="shortcut icon" href="/flexible-jekyll/assets/img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="/flexible-jekyll/assets/img/favicon/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/flexible-jekyll/assets/img/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/flexible-jekyll/assets/img/favicon/apple-touch-icon-114x114.png">
+	<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-touch-icon-114x114.png">
 	<!-- Chrome, Firefox OS and Opera -->
 	<meta name="theme-color" content="#263959">
 	<!-- Windows Phone -->
@@ -73,9 +73,9 @@
 	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 	<!-- Font Awesome -->
-	<link rel="stylesheet" href="/flexible-jekyll/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
 	<!-- Styles -->
-	<link rel="stylesheet" href="/flexible-jekyll/assets/css/main.css">
+	<link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
 <body>
@@ -85,7 +85,7 @@
   <header>
     <div class="about">
       <div class="cover-author-image">
-        <a href="/flexible-jekyll/"><img src="/flexible-jekyll/assets/img/julien-wazne.png" alt="Julien Wazné"></a>
+        <a href="/"><img src="/assets/img/julien-wazne.png" alt="Julien Wazné"></a>
       </div>
       <div class="author-name">Julien Wazné</div>
       <p>I am an open source business intelligence specialist and a full-stack web developer. Always hungry to learn new things.</p>
@@ -122,7 +122,7 @@
   <div class="page-content">
     
     <div class="page-cover-image">
-      <img class="page-image" src=/flexible-jekyll/assets/img/freebsd_elm.png alt="Install ELM on Freebsd">
+      <img class="page-image" src=/assets/img/freebsd_elm.png alt="Install ELM on Freebsd">
     </div> <!-- End Page Cover Image -->
     
     <div class="wrap-content">
@@ -157,12 +157,13 @@ The right version here is ghc 7.10.3 since the latest version cannot be used to 
 N.B. : Some adpatations have been made to meet the ELM install</strong></p>
 
 <p>Install and configure gcc:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Install compatibility package
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Install compatibility package   
 $ pkg install compat8x-amd64
 # Install gcc
-$ pkg install gcc
-# it gives you gcc6
+$ pkg install gcc #(it gives you gcc6)
 </code></pre></div></div>
+
 <p>Download ghc archive (size is 72.76M):</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd /tmp
 $ wget https://downloads.haskell.org/~ghc/7.10.3/ghc-7.10.3-x86_64-portbld-freebsd.tar.xz
@@ -202,7 +203,6 @@ $ cd /usr/local/elm/
 <p>Run haskell to build ELM from source</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ runhaskell BuildFromSource.hs 0.18
 # about 10 minutes... (yes, that long)
-
 </code></pre></div></div>
 
 <h2 id="last-step--configure-path">Last step : Configure path</h2>
@@ -223,9 +223,9 @@ $ cd /usr/local/elm/
         </div>
         <div class="page-tag">
           
-            <a href="/flexible-jekyll/tags#freebsd" class="tag">&#35; freebsd</a>
+            <a href="/tags#freebsd" class="tag">&#35; freebsd</a>
           
-            <a href="/flexible-jekyll/tags#elm" class="tag">&#35; elm</a>
+            <a href="/tags#elm" class="tag">&#35; elm</a>
           
         </div>
       </div>

@@ -16,7 +16,7 @@ So we can't use
 pkg install something
 ```
 nor
- ```
+```
 cd /usr/ports/lang/elm && make clean install
 ```
 ## Solution
@@ -33,13 +33,14 @@ The right version here is ghc 7.10.3 since the latest version cannot be used to 
 N.B. : Some adpatations have been made to meet the ELM install**
 
 Install and configure gcc:
-```
-# Install compatibility package
+
+~~~~~~~~
+# Install compatibility package   
 $ pkg install compat8x-amd64
 # Install gcc
-$ pkg install gcc
-# it gives you gcc6
-```
+$ pkg install gcc #(it gives you gcc6)
+~~~~~~~~
+
 Download ghc archive (size is 72.76M):
 ```
 $ cd /tmp
@@ -87,7 +88,6 @@ Run haskell to build ELM from source
 ```
 $ runhaskell BuildFromSource.hs 0.18
 # about 10 minutes... (yes, that long)
-
 ```
 
 ## Last step : Configure path

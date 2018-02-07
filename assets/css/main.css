@@ -450,6 +450,8 @@ template {
   -webkit-border-radius: 3px;
           border-radius: 3px;
   padding: 0.1rem 0.5rem;
+  padding: 0px;
+  width: 80%;
 }
 
 .highlight .hll {
