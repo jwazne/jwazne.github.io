@@ -13,7 +13,7 @@ author-img: julien-wazne.png
 about-author: Open source BI specialist<br>Full-stack developer<br>CTO & Co-founder.<br><br>Always hungry to learn and share new things. # add description
 #twitter: # add your Twitter handle
 #facebook: # add your Facebook handle
-#github: jwazne # add your Github handle
+github: # add your Github handle
 linkedin: julienwazne # add your Linkedin handle
 email: jwazne@gmail.com # add your Email address
 
