@@ -29,8 +29,9 @@ Install ELM from the source.
 We need to install Haskell to compile the ELM sources.
 The right version here is ghc 7.10.3 since the latest version cannot be used to install ELM v18
 
-**(Some of the following instructions have been retrieved from the great article on how to install ghc on freebsd : https://ryanglscott.github.io/2014/07/16/installing-ghc-on-freebsd/)
-N.B. : Some adpatations have been made to meet the ELM install**
+**(Some of the following instructions have been retrieved from the great article on how to install ghc on freebsd :  
+   https://ryanglscott.github.io/2014/07/16/installing-ghc-on-freebsd/)  
+   N.B. : Some adpatations have been made to meet the ELM install**
 
 Install and configure gcc:
 
