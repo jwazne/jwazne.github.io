@@ -1,7 +1,7 @@
 ## What is it ?
 
 Blog about Open source Business Intelligence / Data science / Web development
-=> https://jwazne.gihub.io
+=> https://jwazne.github.io
 
 ## Credits
 
