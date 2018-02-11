@@ -1,8 +1,6 @@
-title: Hello, world! I'm Julien Wazné
+title: jwazne
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hows to on technical subjects such as Business Intelligence / Data Science / Web development.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jwazne.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -12,7 +10,7 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Julien Wazné # add your name
 #author-img: david-freeman.jpg # add your photo
 author-img: julien-wazne.png
-about-author: I am an open source business intelligence specialist and a full-stack web developer. Always hungry to learn new things. # add description
+about-author: Open source business intelligence specialist / Full-stack developer / CTO & Co-founder.<br>Always hungry to learn and share new things. # add description
 #twitter: # add your Twitter handle
 #facebook: # add your Facebook handle
 github: jwazne # add your Github handle
