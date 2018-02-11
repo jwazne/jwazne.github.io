@@ -10,7 +10,7 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Julien Wazné # add your name
 #author-img: david-freeman.jpg # add your photo
 author-img: julien-wazne.png
-about-author: Open source business intelligence specialist / Full-stack developer / CTO & Co-founder.<br>Always hungry to learn and share new things. # add description
+about-author: Open source BI specialist<br>Full-stack developer<br>CTO & Co-founder.<br><br>Always hungry to learn and share new things. # add description
 #twitter: # add your Twitter handle
 #facebook: # add your Facebook handle
 github: jwazne # add your Github handle
